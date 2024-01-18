@@ -1,7 +1,9 @@
 import LinkedList from "./DS/LinkedList.js";
 
 const ll = new LinkedList();
-ll.prepend(21);
-ll.prepend(11);
+ll.append(1);
+ll.append(2);
+ll.prepend(0);
 
 console.log(ll);
+console.log("--------------");
